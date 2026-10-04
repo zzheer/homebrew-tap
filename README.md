@@ -4,12 +4,10 @@ Prepared formula: `Formula/duckduckgo-tools.rb`. Source builds locally with
 Rust, two Cargo jobs, and `--locked`; both CLI and MCP binaries install.
 The formula test checks capabilities offline and the MCP executable exists.
 
-The source URL is pinned to the locally verified bootstrap commit. Neither
-source nor tap is published yet; remote installation is blocked on authorized
-GitHub access for personal account `zzheer`. Do not advertise installation as
-available before source/tap remote readback and a real Homebrew install/test.
+The public source archive is pinned to `v0.1.0` and its SHA256. Source and tap
+are published; verify a real Homebrew install/test separately.
 
-Once published:
+Install:
 
 ```sh
 brew install zzheer/tap/duckduckgo-tools

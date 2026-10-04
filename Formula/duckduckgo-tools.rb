@@ -1,8 +1,8 @@
 class DuckduckgoTools < Formula
   desc "Standalone DuckDuckGo HTML search CLI and stdio MCP server"
   homepage "https://github.com/zzheer/duckduckgo-tools"
-  url "https://github.com/zzheer/duckduckgo-tools.git",
-      revision: "034829b4e431182b461894cbef64df84d2e74b32"
+  url "https://github.com/zzheer/duckduckgo-tools/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "aef57a82591077c79dca217b86312821d2e1b92cb5638744744f5fa5ecd64009"
   version "0.1.0"
   license "MIT"
 
