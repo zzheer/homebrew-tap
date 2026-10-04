@@ -10,7 +10,7 @@ class DuckduckgoTools < Formula
 
   def install
     ENV["CARGO_BUILD_JOBS"] = "2"
-    system "cargo", "install", "--locked", *std_cargo_args
+    system "cargo", "install", *std_cargo_args
   end
 
   test do
