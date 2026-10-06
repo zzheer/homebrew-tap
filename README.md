@@ -16,3 +16,14 @@ brew test zzheer/tap/duckduckgo-tools
 
 Use PRs after initial bootstrap. No GitHub Actions, hosted CI, uploaded build
 outputs, caches, or binaries. No worktrees.
+
+## MTK
+
+`Formula/mtk.rb` builds the private CPU limiter and installs the command wrapper,
+job registry, aliases, and helpers. Source archives are pinned by commit and
+hashed from the exact published URL. MTK uses `duckduckgo-tools` from this tap.
+
+```sh
+brew install zzheer/tap/mtk
+brew test zzheer/tap/mtk
+```
